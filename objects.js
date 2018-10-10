@@ -1,8 +1,8 @@
-var playlist = { Cranberries : 'Zombie' };
+var playlist = { Cranberries : 'Zombie' }
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
   return playlist;
  }
-function removeFromPlaylist(playlist, artistName) () {
+function removeFromPlaylist(playlist, artistName) {
  delete playlist['artistName'];
 }
